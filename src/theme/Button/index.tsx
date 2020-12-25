@@ -1,9 +1,12 @@
+import clsx from "clsx"
+
 import React, { ReactNode } from "react"
 
-import styles from "./styles.module.css"
+import styles from "./styles.module.scss"
 
 type Props = Readonly<{
   children: ReactNode
+  className?: string
   href?: string
   newTab: boolean
   onClick?: () => void
@@ -11,8 +14,16 @@ type Props = Readonly<{
   type?: "button" | "submit"
 }>
 
-const Button = ({ children, href, newTab, onClick, to, type }: Props) => {
-  const classes = styles.button
+const Button = ({
+  children,
+  className,
+  href,
+  newTab,
+  onClick,
+  to,
+  type,
+}: Props) => {
+  const classes = clsx(styles.button, className)
 
   if (href != null) {
     return (

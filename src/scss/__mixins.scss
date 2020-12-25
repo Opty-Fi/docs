@@ -1,0 +1,60 @@
+@mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+@mixin VerticalCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+//MEDIA QUERY MANAGER
+
+/* 
+  0-600px: phone
+  600-900px: tablet portrait
+  900-1200px: talbet landscape
+  [1200- 1000] normal size
+  1800px + : big desktop
+  */
+
+/* breakpoint arguement choices: 
+  -phone
+  -tab-port
+  -tab-land
+  -big-desktop
+  */
+@mixin respond($breakpoint) {
+  @if $breakpoint==phone {
+    @media only screen and (max-width: 37.5em) {
+      @content //600px;;;;;
+    }
+  }
+
+  @if $breakpoint==tab-port {
+    @media only screen and (max-width: 56.25em) {
+      @content //900px;;;;;
+    }
+  }
+
+  @if $breakpoint==tab-land {
+    @media only screen and (max-width: 75em) {
+      @content //1200px;;;;;
+    }
+  }
+
+  @if $breakpoint==big-desktop {
+    @media only screen and (min-width: 112.5em) {
+      @content //1800px;;;;;
+    }
+  }
+}

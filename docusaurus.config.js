@@ -1,13 +1,34 @@
+const githubOrgUrl = "https://github.com/Opty-Fi"
+const domain = "https://www.opty.fi/"
+const customFields = {
+  copyright: `Copyright © ${new Date().getFullYear()} OptyFi, Inc. Built with Docusaurus.`,
+  description:
+    "Auto-shift your DeFi assets into the highest-yield strategiesmatching your risk appetite",
+  domain,
+  githubOrgUrl,
+  githubUrl: `${githubOrgUrl}/Opty-Fi`,
+  docsUrl: domain,
+  twitterUrl: domain,
+  redditUrl: domain,
+  discordUrl: domain,
+  documentationUrl: domain,
+  forumUrl: domain,
+  whitePaperUrl: domain,
+  version: "5.0.5",
+}
+
 module.exports = {
-  title: "My Site",
-  tagline: "The tagline of my site",
-  url: "https://www.opty.fi/",
+  title: "OptyFi",
+  tagline:
+    "Auto-shift your DeFi assets into the highest-yield strategiesmatching your risk appetite",
+  url: domain,
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  favicon: "img/logo.svg",
+  organizationName: "OptyFi", // Usually your GitHub org/user name.
+  projectName: "optyfi", // Usually your repo name.
+  customFields,
   themeConfig: {
     // colorMode: {
     //   defaultMode: "light",
@@ -18,8 +39,8 @@ module.exports = {
     navbar: {
       title: "",
       logo: {
-        alt: "My Site Logo",
-        src: "img/logo.png",
+        alt: "Optyfi",
+        src: "img/logo.svg",
       },
       items: [
         {
@@ -28,15 +49,15 @@ module.exports = {
           items: [
             {
               label: "Documentation",
-              href: "https://www.opty.fi/",
+              href: customFields.documentationUrl,
             },
             {
               label: "Github",
-              href: "https://www.opty.fi/",
+              href: customFields.githubOrgUrl,
             },
             {
               label: "Whitepaper",
-              href: "https://www.opty.fi/",
+              href: customFields.whitePaperUrl,
             },
           ],
         },
@@ -46,11 +67,11 @@ module.exports = {
           items: [
             {
               label: "Forum",
-              href: "https://www.opty.fi/",
+              href: customFields.forumUrl,
             },
             {
               label: "Documentation",
-              href: "https://www.opty.fi/",
+              href: customFields.documentationUrl,
             },
           ],
         },
@@ -60,15 +81,15 @@ module.exports = {
           items: [
             {
               label: "Discord",
-              href: "https://www.opty.fi/",
+              href: customFields.discordUrl,
             },
             {
               label: "Twitter",
-              href: "https://www.opty.fi/",
+              href: customFields.twitterUrl,
             },
             {
               label: "Reddit",
-              href: "https://www.opty.fi/",
+              href: customFields.redditUrl,
             },
           ],
         },
@@ -78,15 +99,32 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Document",
           items: [
             {
-              label: "Style Guide",
-              to: "docs/",
+              label: "Documentation",
+              href: customFields.documentationUrl,
             },
             {
-              label: "Second Doc",
-              to: "docs/doc2/",
+              label: "Github",
+              href: customFields.githubOrgUrl,
+            },
+            {
+              label: "Whitepaper",
+              href: customFields.whitePaperUrl,
+            },
+          ],
+        },
+        {
+          title: "Governance",
+          items: [
+            {
+              label: "Forum",
+              href: customFields.forumUrl,
+            },
+            {
+              label: "Documentation",
+              href: customFields.documentationUrl,
             },
           ],
         },
@@ -94,34 +132,20 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
               label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              href: customFields.discordUrl,
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "blog",
+              href: customFields.twitterUrl,
             },
             {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "Reddit",
+              href: customFields.redditUrl,
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -135,9 +159,10 @@ module.exports = {
           // Please change this to your repo.
         },
         theme: {
-          customCss: [require.resolve("./src/css/custom.css")],
+          customCss: [require.resolve("./src/scss/global.scss")],
         },
       },
     ],
   ],
+  plugins: ["docusaurus-plugin-sass"],
 }

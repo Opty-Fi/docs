@@ -7,7 +7,7 @@ import SearchBar from "@theme/SearchBar"
 import useLockBodyScroll from "@theme/hooks/useLockBodyScroll"
 import useWindowSize, { windowSizes } from "@theme/hooks/useWindowSize"
 import Logo from "../../../static/img/logo.png"
-import styles from "./styles.module.css"
+import styles from "./styles.module.scss"
 import NavbarItem from "@theme/NavbarItem"
 
 const DefaultNavItemPosition = "right"
@@ -39,7 +39,6 @@ function Navbar(): JSX.Element {
     },
   } = useDocusaurusContext()
   const [sidebarShown, setSidebarShown] = useState(false)
-  const [isSearchBarExpanded, setIsSearchBarExpanded] = useState(false)
 
   useLockBodyScroll(sidebarShown)
 
@@ -69,7 +68,13 @@ function Navbar(): JSX.Element {
       <div className={clsx("navbar__inner", styles.inner)}>
         <div className="navbar__items">
           <a className={clsx("navbar__brand", styles.brand)} href="/">
-            <img src={Logo} alt="logo" />
+            <img
+              alt="Optyfi logo"
+              className={styles.footer__logo}
+              src="/img/logo.svg"
+              title="OptyFi"
+              width={150}
+            />
           </a>
           <div className={styles.navigation_items}>
             {leftItems.map((item, i) => (
@@ -81,11 +86,7 @@ function Navbar(): JSX.Element {
           {rightItems.map((item, i) => (
             <NavbarItem {...item} key={i} />
           ))}
-          <SearchBar
-            handleSearchBarToggle={setIsSearchBarExpanded}
-            isSearchBarExpanded={isSearchBarExpanded}
-          />
-          <Button href="https://www.opty.fi/" newTab>
+          <Button href="https://www.opty.fi/" newTab className="desktopOnly">
             Launch App ↗
           </Button>
         </div>

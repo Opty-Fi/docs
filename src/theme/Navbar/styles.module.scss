@@ -1,0 +1,28 @@
+.brand {
+  padding: 10px 0;
+  img {
+    width: 150px;
+  }
+}
+
+.navigation_items {
+  padding-left: 10px;
+}
+
+.inner {
+  margin: 0 auto;
+  padding: 0 var(--ifm-spacing-horizontal);
+}
+:global(.navbar) {
+  padding: 0 50px;
+  display: flex;
+}
+:global(.dropdown) {
+  cursor: pointer;
+}
+:global(.dropdown:hover .navbar__item) {
+  color: var(--color-blue);
+}
+:global(.navbar__link::after) {
+  display: none !important;
+}
