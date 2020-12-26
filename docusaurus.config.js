@@ -44,19 +44,19 @@ module.exports = {
       },
       items: [
         {
-          label: "Document",
+          label: "About",
           position: "left",
           items: [
             {
-              label: "Documentation",
+              label: "Strategies",
               href: customFields.documentationUrl,
             },
             {
-              label: "Github",
+              label: "Protocol",
               href: customFields.githubOrgUrl,
             },
             {
-              label: "Whitepaper",
+              label: "OptyFi Labs",
               href: customFields.whitePaperUrl,
             },
           ],
@@ -66,17 +66,43 @@ module.exports = {
           position: "left",
           items: [
             {
+              label: "OPTY Token",
+              href: customFields.forumUrl,
+            },
+            {
               label: "Forum",
               href: customFields.forumUrl,
             },
             {
-              label: "Documentation",
+              label: "Voting App",
               href: customFields.documentationUrl,
             },
           ],
         },
         {
-          label: "Community",
+          label: "Technical",
+          position: "left",
+          items: [
+            {
+              label: "Whitepaper",
+              href: customFields.whitePaperUrl,
+            },
+            {
+              label: "Documentation",
+              href: customFields.documentationUrl,
+            },
+            {
+              label: "Audit",
+              href: customFields.redditUrl,
+            },
+            {
+              label: "Github",
+              href: customFields.githubOrgUrl,
+            },
+          ],
+        },
+        {
+          label: "Connect",
           position: "left",
           items: [
             {
@@ -91,6 +117,10 @@ module.exports = {
               label: "Reddit",
               href: customFields.redditUrl,
             },
+            {
+              label: "Email",
+              href: customFields.redditUrl,
+            },
           ],
         },
       ],
@@ -99,18 +129,18 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Document",
+          title: "About",
           items: [
             {
-              label: "Documentation",
+              label: "Strategies",
               href: customFields.documentationUrl,
             },
             {
-              label: "Github",
+              label: "Protocol",
               href: customFields.githubOrgUrl,
             },
             {
-              label: "Whitepaper",
+              label: "OptyFi Labs",
               href: customFields.whitePaperUrl,
             },
           ],
@@ -119,17 +149,42 @@ module.exports = {
           title: "Governance",
           items: [
             {
+              label: "OPTY Token",
+              href: customFields.forumUrl,
+            },
+            {
               label: "Forum",
               href: customFields.forumUrl,
             },
             {
-              label: "Documentation",
+              label: "Voting App",
               href: customFields.documentationUrl,
             },
           ],
         },
         {
-          title: "Community",
+          title: "Technical",
+          items: [
+            {
+              label: "Whitepaper",
+              href: customFields.whitePaperUrl,
+            },
+            {
+              label: "Documentation",
+              href: customFields.documentationUrl,
+            },
+            {
+              label: "Audit",
+              href: customFields.redditUrl,
+            },
+            {
+              label: "Github",
+              href: customFields.githubOrgUrl,
+            },
+          ],
+        },
+        {
+          title: "Connect",
           items: [
             {
               label: "Discord",
@@ -141,6 +196,10 @@ module.exports = {
             },
             {
               label: "Reddit",
+              href: customFields.redditUrl,
+            },
+            {
+              label: "Email",
               href: customFields.redditUrl,
             },
           ],

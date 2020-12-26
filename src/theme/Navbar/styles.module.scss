@@ -13,15 +13,28 @@
   margin: 0 auto;
   padding: 0 var(--ifm-spacing-horizontal);
 }
+:global(.navbar__brand) {
+  height: auto;
+  margin-right: 0;
+}
 :global(.navbar) {
   padding: 0 50px;
+  height: auto;
   display: flex;
 }
 :global(.dropdown) {
+  text-transform: uppercase;
+  cursor: pointer;
+}
+:global(.dropdown__link) {
+  text-transform: none;
   cursor: pointer;
 }
 :global(.dropdown:hover .navbar__item) {
   color: var(--color-blue);
+}
+:global(.navbar__link) {
+  font-weight: bold;
 }
 :global(.navbar__link::after) {
   display: none !important;

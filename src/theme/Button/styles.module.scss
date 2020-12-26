@@ -7,6 +7,7 @@
   font-size: var(--font-size-normal);
   display: inline-block;
   font-weight: 400;
+  line-height: 20px;
   transition: transform 0.45s cubic-bezier(0.19, 1, 0.22, 1) 0s;
   &:hover {
     transform: translate(2px, 2px);
