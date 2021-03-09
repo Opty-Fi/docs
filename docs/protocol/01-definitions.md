@@ -28,4 +28,28 @@ title: Smart Contracts
   2. Deposit  3CRV pool tokens to Harvest's f3CRV pool and receive f3CRV pool tokens 
 
      (Note: Currently OptyFi implements multi-step sequential strategies, and allows a "borrow step" using AAVE as our credit provider.)
+  
+- **Pool Ratings:** The OptyFi protocol assigns credit-worthiness ratings to pools. Currently we use a three-tier rating system and categorize each pool as Tier 1, Tier 2 or Tier 3 with Tier 1 being the most credit-worthy. We apply the ratings at the Protocol level i.e. all pools of a given protocol are given the same rating as described below. (In the future, based on governance, we may change the ratings methodology and/or the ratings of individual pools.)
+
+  | **Protocol** | **Pool Ratings** |
+  | ------------ | ---------------- |
+  | Aave         | T1               |
+  | BzX          | T2               |
+  | Compound     | T1               |
+  | Cream        | T3               |
+  | Curve        | T2               |
+  | Dforce       | T3               |
+  | dYdX         | T2               |
+  | Harvest      | T3               |
+  | Yearn        | T3               |
+
+- **Risk Profiles**: The OptyFi protocol assigns a risk profile to each yield strategy than can be executed. The risk profile of a strategy depends on the pools involved in the strategy as well as the complexity of the strategy. We currently implement three risk profiles:
+
+  | Code | Name          | Strategy Complexity                     | Pools Included |
+  | ---- | ------------- | --------------------------------------- | -------------- |
+  | RP1  | Basic         | Single-step strategy with no borrowing. | T1 only        |
+  | RP2  | Advanced      | Multi-step strategy with borrowing      | T1 and T2      |
+  | RP3  | Advanced Plus | Multi-step strategy with borrowing      | T3             |
+
+  
 
