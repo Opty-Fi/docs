@@ -9,6 +9,11 @@ module.exports = {
       type: "category",
       items: ["strategies/best-yield", "strategies/risk-adjusted"],
     },
+	{
+      label: "Governance",
+      type: "category",
+      items: ["governance/constitution", "governance/voting-process"],
+    },
     {
       label: "Get Started",
       type: "category",
