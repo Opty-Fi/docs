@@ -1,6 +1,6 @@
 ---
-id: smart-contracts
-title: Smart Contracts
+id: definitions
+title: Definitions
 ---
 
 ## Definitions
