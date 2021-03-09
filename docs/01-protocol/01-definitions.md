@@ -14,11 +14,11 @@ title: Definitions
 
 - **Tokens:** Blockchain assets that conform to the ERC-20 standard. Within the OptyFi protocol, a token may be categorized into one or more of the following categories:
 
-  - **Pool Token:** Represent ownership in a Pool.
-  - **Vault Token:** Represents ownership in a Vault.
-  - **Underlying Token:** The asset deposited into or held by a Pool or Vault.
-  - **Input Token**: Alternate way of referring to the token deposited into a Pool, i.e. the underlying token.    
-  - **Output Token:** Alternate way of referring to the token representing ownership in a Pool, i.e. the pool token. 
+  - **Pool Token:** Represent ownership in a pool.
+  - **Vault Token:** Represents ownership in a vault.
+  - **Underlying Token:** The asset deposited into or held by a pool or vault.
+  - **Input Token**: Alternate way of referring to the token deposited into a pool, i.e. the underlying token.    
+  - **Output Token:** Alternate way of referring to the token representing ownership in a pool, i.e. the pool token. 
   - **Reward Token:** The token distributed by a Protocol to reward its users and/or community. Examples include OPTY, COMP and CRV for the OptyFi, Compound and Curve protocols respectively.  
 
 - **Yield Strategy (aka Strategy):** A sequence of steps whereby assets are deposited into pools in order to generate yield. Strategies may be single- or multi-step and the steps may occur in sequence or parallel. For example, a two-step sequential strategy could proceed as follows:
@@ -29,7 +29,7 @@ title: Definitions
 
      (Note: Currently OptyFi implements multi-step sequential strategies, and allows a "borrow step" using AAVE as our credit provider.)
   
-- **Pool Ratings:** The OptyFi protocol assigns credit-worthiness ratings to pools. Currently we use a three-tier rating system and categorize each pool as Tier 1, Tier 2 or Tier 3 with Tier 1 being the most credit-worthy. We apply the ratings at the Protocol level i.e. all pools of a given protocol are given the same rating as described below. (In the future, based on governance, we may change the ratings methodology and/or the ratings of individual pools.)
+- **Pool Ratings:** The OptyFi protocol assigns credit-worthiness ratings to pools. Currently we use a three-tier rating system and categorize each pool as Tier 1 (T1), Tier 2 (T2) or Tier 3 (T3) with Tier 1 being the most credit-worthy. Currently the ratings are applied at the Protocol level i.e. all pools of a given protocol are given the same rating as described below. (In the future, governance may decide to change the ratings methodology and/or the ratings of protocols or individual pools.)
 
   | **Protocol** | **Pool Ratings** |
   | ------------ | ---------------- |

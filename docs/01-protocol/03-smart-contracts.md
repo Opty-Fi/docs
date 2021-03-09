@@ -48,7 +48,7 @@ The Risk Manager contract performs last minute checks before permitting a Vault 
 
 **DefiCodeProviders**
 
-For each protocol integrated into OptyFi, a DefiCodeProvider contract implements the functions necessary to interact with pools within that protocol. For example the harvestCodeProvider.sol contract implements functions necessary to deposit into and withdraw and claim rewards from Harvest pools.
+For each protocol integrated into OptyFi, a DefiCodeProvider contract implements the functions necessary to interact with pools within that protocol. For example the harvestCodeProvider.sol contract implements functions necessary to deposit into, withdraw from and claim rewards from Harvest pools.
 
 ---
 
