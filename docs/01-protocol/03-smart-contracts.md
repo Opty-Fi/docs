@@ -8,7 +8,23 @@ title: Smart Contracts
 
 **Vault.sol** 
 
-The Vault contract holds users' assets (underlying tokens) and deploys these assets into multi-step strategies. 
+The Vault contract holds users' assets (underlying tokens) and deploys these assets into multi-step strategies. The Vault contract implements the following functions:
+
+userDeposit()
+
+userDepositRebalance()
+
+userWithdraw()
+
+userWithdrawRebalance()
+
+depositAll() ==> can we change to vaultDepositAll()
+
+withdrawAll() ==> can we change to vaultWithdrawAll()
+
+rebalance()
+
+harvest() ==> change to vaultClaimReward(action='harvest' or 'invest')
 
 ------
 
