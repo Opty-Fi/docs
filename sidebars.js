@@ -7,7 +7,12 @@ module.exports = {
     {
       label: "Strategies",
       type: "category",
-      items: ["strategies/best-yield", "strategies/risk-adjusted"],
+      items: ["strategies/definitions", "strategies/strategies"],
+    },
+    {
+      label: "Opty Token",
+      type: "category",
+      items: ["opty-token/tokenmics"],
     },
     {
       label: "Governance",
@@ -15,18 +20,12 @@ module.exports = {
       items: ["governance/constitution", "governance/voting-process"],
     },
     {
-      label: "Protocol",
-      type: "category",
-      items: ["protocol/definitions", "protocol/composable-strategies", "protocol/smart-contracts"],
-    },
-    {
-      label: "Get Started",
+      label: "Developers",
       type: "category",
       items: [
-        "get-started/docker",
-        "get-started/binaries",
-        "get-started/homebrew",
-        "get-started/first-database",
+        "developers/optimization",
+        "developers/developer-guidlines",
+        "developers/smart-contracts",
       ],
     },
   ],

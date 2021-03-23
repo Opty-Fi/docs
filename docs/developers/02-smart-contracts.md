@@ -4,9 +4,13 @@ title: Smart Contracts
 
 ---
 
-## Smart Contracts
+# Smart Contracts
 
-**Vault.sol** 
+## Architecture
+
+## User Assets
+
+### Vault.sol 
 
 The Vault contract holds users' assets (underlying tokens) and deploys these assets into multi-step strategies. The Vault contract implements the following functions:
 
@@ -28,25 +32,31 @@ harvest() ==> change to vaultClaimReward(action='harvest' or 'invest')
 
 ------
 
-**Registry.sol** 
+## Common Data and Parameters
+
+### Registry.sol 
 
 The Registry contract acts as the central database for the OptyFi protocol and holds protocol parameters as well as identification and rating data for pools that are authorized and enabled for OptyFi yield strategies.    
 
 ------
 
-**StrategyCodeProvider.sol**
+## Strategy Execution
+
+### StrategyCodeProvider.sol
 
 When a Vault wants to execute a strategy, it calls the StrategyCodeProvider contract which provides byte-code instructions to the Vault on how to execute the strategy.  
 
 -----
 
-**RiskManager.sol**
+### RiskManager.sol
 
 The Risk Manager contract performs last minute checks before permitting a Vault to execute a particular strategy. 
 
 ---
 
-**DefiCodeProviders**
+## Protocol Integrations
+
+### DefiCodeProviders
 
 For each protocol integrated into OptyFi, a DefiCodeProvider contract implements the functions necessary to interact with pools within that protocol. For example the harvestCodeProvider.sol contract implements functions necessary to deposit into, withdraw from and claim rewards from Harvest pools.
 

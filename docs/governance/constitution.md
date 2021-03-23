@@ -20,7 +20,7 @@ title: Constitution
 ### Constitution
 
 1. The OptyFi Protocol aims to provide users with the best returns on DeFi assets, by pooling user assets and then deploying them into optimal investment strategies. 
-2. The holders of $OPTY tokens have the overall right to govern the Protocol and are also entitled to Protocol earnings.
+2. The holders of $OPTY tokens have the right to govern the Protocol and are entitled to Protocol earnings.
 3. The Protocol was originally developed and owned by Developer. Upon deployment of Protocol contracts, ownership of the Protocol was transferred to $OPTY holders under an Original Protocol Bill of Sale which entitled Developer to compensation for developing the Protocol providing a limited warranty on code warranty.   
 4. and then transferred to ownership of Upon deploying Protocol  and then conveyed to the ownership of As compensation, The Developer transfers ownership of the Protocol to the Community.  The Developer receives XXXXX as compensation for developing the Protocol, and agrees to provide  
 Best Yield strategy allows users to optimize interest rate profitability and seamlessly get the highest yield, without having to manually move funds across different lending protocols to chase the best returns.
