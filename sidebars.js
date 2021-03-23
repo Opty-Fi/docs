@@ -9,10 +9,15 @@ module.exports = {
       type: "category",
       items: ["strategies/best-yield", "strategies/risk-adjusted"],
     },
-	{
+    {
       label: "Governance",
       type: "category",
       items: ["governance/constitution", "governance/voting-process"],
+    },
+    {
+      label: "Protocol",
+      type: "category",
+      items: ["protocol/definitions", "protocol/composable-strategies", "protocol/smart-contracts"],
     },
     {
       label: "Get Started",

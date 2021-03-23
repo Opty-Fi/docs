@@ -1,4 +1,4 @@
 ---
-id: risk-adjusted
+id: voting-process
 title: Risk Adjuste
 ---
