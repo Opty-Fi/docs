@@ -1,6 +1,6 @@
 ---
 id: whitepaper
-title: whitepaper
+title: Whitepaper
 ---
 
 # OptyFi: DeFi's Composable Yield Platform

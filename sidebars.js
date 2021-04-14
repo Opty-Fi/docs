@@ -5,6 +5,10 @@ module.exports = {
       type: "doc",
     },
     {
+      id: "whitepaper",
+      type: "doc",
+    },
+    {
       label: "Strategies",
       type: "category",
       items: ["strategies/definitions", "strategies/strategies"],
