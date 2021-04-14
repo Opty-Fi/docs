@@ -9,21 +9,16 @@ title: Definitions
 
 Tokens are blockchain assets that conform to widely accepted standards such as ERC-20 or ERC-721. Within the OptyFi protocol, a token may be categorized into one or more of the following categories:
 
-- **Pool Token:** Represent ownership in a pool (see definition below). 
-
+- **Base Token:** Refers basic non-pool tokens such as DAI, USDC, LINK and WETH etc.
+- **Pool Token:** Represent ownership in a pool. Examples include cDAI, aUSDC and crUSDT. 
 - **Vault Token:** Represents ownership in a vault (See definition below)
-
-- **Underlying Token:** The asset deposited into or held by a pool or vault.
-
-- **Input Token**: Alternate way of referring to the token deposited into a pool, i.e. the underlying token.    
-
+- **Underlying Token (aka Input Token):** The asset deposited into or held by a pool or vault.  
 - **Output Token:** Alternate way of referring to the token representing ownership in a pool, i.e. the pool token. 
-
 - **Reward Token:** The token distributed by a Protocol to reward its users and/or community. Examples include OPTY, COMP and CRV for the OptyFi, Compound and Curve protocols respectively. 
 
 ## Liquidity Pools
 
-Smart contracts that collect assets from liquidity providers (LP's), generate returns from these assets, and share these returns with LPs. Examples include:
+LSmart contracts that collect assets from liquidity providers (LP's), generate returns from these assets, and share these returns with LPs. Examples include:
 
 - Compound cDAI contract (an interest earning pool)
 

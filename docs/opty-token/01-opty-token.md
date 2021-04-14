@@ -7,6 +7,12 @@ title: Tokenomics
 
 # OPTY Token
 
+## Definitions
+
+- claimableOPTY(userAccount) - stored in OPTYMinter.sol
+
+
+
 ## Tokenomics
 
 ## Optimized Supply Schedule
