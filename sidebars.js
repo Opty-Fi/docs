@@ -27,9 +27,18 @@ module.exports = {
       label: "Developers",
       type: "category",
       items: [
-        "developers/optimization",
-        "developers/developer-guidlines",
-        "developers/smart-contracts",
+        "developers/deployed-contracts",
+        {
+          label: "Interface",
+          type: "category",
+          items: [
+            "developers/interface/ivault",
+            "developers/interface/iadapter",
+            "developers/interface/iregistry",
+            "developers/interface/irisk",
+            "developers/interface/istrategy",
+          ],
+        },
       ],
     },
   ],

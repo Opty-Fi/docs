@@ -1,5 +1,0 @@
----
-id: optimization
-title: Optimization
-
----
