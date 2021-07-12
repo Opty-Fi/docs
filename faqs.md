@@ -1,65 +1,64 @@
-# FAQs
+# Preguntas frecuentes
 
-## What is OptyFi?
+## ¿Qué es OptyFi?
 
-OptyFi is a multi-chain DeFi yield optimization protocol.
+OptyFi es un protocolo de optimización de rendimiento DeFi de múltiples cadenas.
 
-## How does OptyFi work?
+## ¿Cómo funciona OptyFi?
 
-The OptyFi Protocol evaluates thousands of yield strategies across hundreds of liquidity pools, dozens of protocols and multiple blockchains to enable investors earn the most optimal yield in DeFi.
+El Protocolo OptyFi evalúa miles de estrategias de rendimiento en cientos de grupos de liquidez, docenas de protocolos y múltiples cadenas de bloques para permitir que los inversores obtengan el rendimiento más óptimo en DeFi.
 
-## What products can I use on OptyFi?
+## ¿Qué productos puedo usar en OptyFi?
 
-* **Vaults:** You can invest in OptyFi vaults to earn yield on your assets.
-* **Staking Pools:** You can stake your OPTY tokens to earn more OPTY tokens.
+* ** Bóvedas: ** Puede invertir en bóvedas OptyFi para obtener rendimiento de sus activos.
+* ** Staking Pools: ** Puede apostar sus tokens OPTY para ganar más tokens OPTY.
 
-## How does OptyFi make money?
+## ¿Cómo gana dinero OptyFi?
 
-OptyFi makes money primarily from fees charged on OptyFi vaults.
+OptyFi gana dinero principalmente con las tarifas que se cobran en las bóvedas de OptyFi.
 
-## What fees will OptyFi charge?
+## ¿Qué tarifas cobrará OptyFi?
 
-To be advised.
+A ser informado.
 
-## Will OptyFi be multi-chain?
+## ¿OptyFi será multicadena?
 
-Yes!
+¡Sí!
 
-## Which chains will OptyFi be deployed on?
+## ¿En qué cadenas se implementará OptyFi?
 
-OptyFi vaults will be deployed on multiple blockchains including Ethereum, Polygon, Binance Smart Chain, Terra, etc.
+Las bóvedas OptyFi se implementarán en múltiples cadenas de bloques, incluidas Ethereum, Polygon, Binance Smart Chain, Terra, etc.
 
-## What is OPTY?
+## ¿Qué es OPTY?
 
-OPTY is the native governance token of the OptyFi Protocol and DAO.
+OPTY es el token de gobierno nativo del Protocolo OptyFi y DAO.
 
-## What is the utility of OPTY?
+## ¿Cuál es la utilidad de OPTY?
 
-* OPTY holders can become members of the OptyFi DAO.
-* OPTY holders can participate in OptyFi DAO governance.
-* OPTY holders can stake their OPTY to earn more OPTY.
+* Los titulares de OPTY pueden convertirse en miembros de OptyFi DAO.
+* Los titulares de OPTY pueden participar en la gobernanza de OptyFi DAO.
+* Los titulares de OPTY pueden apostar su OPTY para ganar más OPTY.
 
-## What is the OPTY contract address?
+## ¿Cuál es la dirección del contrato OPTY?
 
-To be advised.
+A ser informado.
 
-## Where can I buy OPTY?
+## ¿Dónde puedo comprar OPTY?
 
-The OPTY token is not yet trading. We will announce when it gets listed on exchanges.
+El token OPTY aún no se comercializa. Anunciaremos cuándo se incluirá en los intercambios.
 
-## How can I earn OPTY?
+## ¿Cómo puedo ganar OPTY?
 
-You can earn OPTY by depositing assets into OptyFi vaults as well as by staking your OPTY.
+Puede ganar OPTY depositando activos en bóvedas de OptyFi, así como apostando su OPTY.
 
-## What is OptyFi DAO?
+## ¿Qué es OptyFi DAO?
 
-The OptyFi DAO is a community-led decentralized autonomous organization consisting of OPTY token holders who govern the operation of the OptyFi Protocol.
+OptyFi DAO es una organización autónoma descentralizada liderada por la comunidad que consta de titulares de tokens OPTY que gobiernan el funcionamiento del Protocolo OptyFi.
 
-## How can I get involved with OptyFi?
+## ¿Cómo puedo involucrarme con OptyFi?
 
-You can get involved by joining our growing community to learn and contribute to the Protocol and DAO.
+Puede participar uniéndose a nuestra comunidad en crecimiento para aprender y contribuir al Protocolo y DAO.
 
-## How can I contact OptyFi?
+## ¿Cómo puedo ponerme en contacto con OptyFi?
 
- You can reach out to the OptyFi core team via our [discord](https://discord.com/invite/kVxKHUEpy8) server.
-
+ Puede comunicarse con el equipo central de OptyFi a través de nuestro servidor [discord] (https://discord.com/invite/kVxKHUEpy8).
