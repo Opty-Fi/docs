@@ -1,64 +1,69 @@
-# 常见问题
+# FAQs
 
-## 什么是 OptyFi？
+## What is OptyFi?
 
-OptyFi 是一种多链 DeFi 收益优化协议。
+OptyFi is a multi-chain DeFi yield optimization protocol.
 
-## OptyFi 是如何工作的？
+## How does OptyFi work?
 
-OptyFi 协议评估了数百个流动性池、数十个协议和多个区块链中的数千种收益策略，以使投资者在 DeFi 中获得最佳收益。
+The OptyFi Protocol evaluates thousands of yield strategies across hundreds of liquidity pools, dozens of protocols and multiple blockchains to enable investors earn the most optimal yield in DeFi.
 
-## 我可以在 OptyFi 上使用哪些产品？
+## What products can I use on OptyFi?
 
-* **保险库：** 您可以投资 OptyFi 保险库以赚取资产收益。
-* **质押池：** 您可以质押您的 OPTY 代币以赚取更多 OPTY 代币。
+* **Vaults:** You can invest in OptyFi vaults to earn yield on your assets.
+* **Staking Pools:** You can stake your OPTY tokens to earn more OPTY tokens.
 
-## OptyFi 如何赚钱？
+## How does OptyFi make money?
 
-OptyFi 主要从 OptyFi 保险库收取的费用中赚钱。
+OptyFi makes money primarily from fees charged on OptyFi vaults.
 
-## OptyFi 会收取哪些费用？
+## What fees will OptyFi charge?
 
-被告知。
+To be advised.
 
-## OptyFi 会是多链的吗？
+## Will OptyFi be multi-chain?
 
-是的！
+Yes!
 
-## OptyFi 将部署在哪些链上？
+## Which chains will OptyFi be deployed on?
 
-OptyFi 保险库将部署在多个区块链上，包括 Ethereum、Polygon、Binance Smart Chain、Terra 等。
+The OptyFi Protocol will be deployed on multiple blockchains including Ethereum, Polygon, Binance Smart Chain, Terra, etc.
 
-##什么是OPTY？
+## Will OptyFi be cross-chain?
 
-OPTY 是 OptyFi 协议和 DAO 的原生治理代币。
+Yes, in addition to being deployed on multiple blockchains, the OptyFi Protocol will also eventually enable cross-chain strategies involving tokens, liquidity pools and DeFi protocols across several chains.
 
-## OPTY 的用途是什么？
+## What is OPTY?
 
-* OPTY 持有者可以成为 OptyFi DAO 的成员。
-* OPTY 持有者可以参与 OptyFi DAO 治理。
-* OPTY 持有者可以质押他们的 OPTY 以赚取更多 OPTY。
+OPTY is the native governance token of the OptyFi Protocol and DAO.
 
-## OPTY 合约地址是什么？
+## What is the utility of OPTY?
 
-被告知。
+* OPTY holders can become members of the OptyFi DAO.
+* OPTY holders can participate in OptyFi DAO governance.
+* OPTY holders can stake their OPTY to earn more OPTY.
 
-## 我在哪里可以买到 OPTY？
+## What is the OPTY contract address?
 
-OPTY 代币尚未交易。我们将在交易所上市时宣布。
+To be advised.
 
-## 我怎样才能获得 OPTY？
+## Where can I buy OPTY?
 
-您可以通过将资产存入 OptyFi 保险库以及抵押您的 OPTY 来赚取 OPTY。
+The OPTY token is not yet trading. We will announce when it gets listed on exchanges.
 
-## 什么是 OptyFi DAO？
+## How can I earn OPTY?
 
-OptyFi DAO 是一个社区主导的去中心化自治组织，由管理 OptyFi 协议运营的 OPTY 代币持有者组成。
+You can earn OPTY by depositing assets into OptyFi vaults as well as by staking your OPTY.
 
-## 我如何参与 OptyFi？
+## What is OptyFi DAO?
 
-您可以通过加入我们不断壮大的社区来学习并为协议和 DAO 做出贡献。
+The OptyFi DAO is a community-led decentralized autonomous organization consisting of OPTY token holders who govern the operation of the OptyFi Protocol.
 
-## 如何联系 OptyFi？
+## How can I get involved with OptyFi?
 
-您可以通过我们的 [discord](https://discord.com/invite/kVxKHUEpy8) 服务器联系 OptyFi 核心团队。
+You can get involved by joining our growing community to learn and contribute to the Protocol and DAO.
+
+## How can I contact OptyFi?
+
+ You can reach out to the OptyFi core team via our [discord](https://discord.com/invite/kVxKHUEpy8) server.
+
