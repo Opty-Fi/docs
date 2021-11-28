@@ -1,12 +1,12 @@
 # Vaults
 
-Vaults are OptyFi smart contracts into which users deposit assets so that these assets can be deployed into strategies. Vaults enable users to share gas costs and thereby increase user profitability while also enabling more frequent strategy switching. 
+Vaults are OptyFi smart contracts into which users deposit assets in order to get these assets deployed into strategies. Vaults enable users to share gas costs and thereby increase user profitability while also enabling more frequent strategy switching. 
 
-Each vault has a [vault type](vaults.md#vault-types) determined by its underlying token \(i.e. the token users would deposit into the vault\). Each vault is also associated with a specific [risk profile](risk-framework.md#risk-profiles) which determines which strategies the vault can and cannot deploy assets into. 
+Each vault has a [vault type](vaults.md#vault-types) determined by its [underlying token](tokens-and-pools.md#tokens) \(i.e. the token users would deposit into the vault\). Each vault is also associated with a specific [risk profile](risk-framework.md#risk-profiles) which determines which strategies the vault can and cannot deploy assets into. 
 
 ## Vault Types
 
-| Type | Underlying Token Example |
+| **Type** | **[Underlying Token Example](tokens-and-pools.md#tokens)** |
 | :--- | :--- |
 | Core Vault | DAI, USDC, USDT, WBTC, WETH |
 | LP Vault | cDAI, aUSDC, UNI-ETH-USDT, BAL-OPTY-USDC |
@@ -20,9 +20,9 @@ LP Vaults can accept Single-Asset LP Tokens like cDAI or aUSDC as well as Multi-
 
 There will be a separate vault for each underlying asset and risk profile combination. 
 
-Upon launch \(ETA July 2021\), the following vaults will be deployed. 
+Upon launch, the following vaults will be deployed: 
 
-| Underlying Asset | Risk Profile |
+| **[Underlying Asset](tokens-and-pools.md#tokens)** | **[Risk Profile](risk-framework.md#risk-profiles)** |
 | :--- | :--- |
 | DAI | RP1, RP2 |
 | USDC | RP1, RP2 |
