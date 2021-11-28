@@ -8,7 +8,7 @@ Zero-Step strategies hold underlying assets in vaults and do not deposit them in
 
 ![A Zero-Step Strategy.](../../../.gitbook/assets/zero-step-strategy-1.svg)
 
-For example, simply holding COMP tokens in a reward vault to earn more COMP!
+For example, staking pools can earn the user COMP by simply holding COMP tokens in a reward vault!
 
 ## One-Step Strategy
 
@@ -18,7 +18,7 @@ One-Step strategies deposit the underlying asset of a vault into a single liquid
 
 The following are some examples of One-Step strategies:
 
-| Vault Type | Input Token | Liquidity Pool | Output Token |
+| **Vault Type** | **Input Token** | **Liquidity Pool** | **Output Token** |
 | :--- | :--- | :--- | :--- |
 | Core Vault | DAI | Compound | cDAI |
 | LP Vault | cDAI | Cream | crDAI |
@@ -34,7 +34,7 @@ One-Step with Borrow strategies deposit the underlying asset of a vault into a c
 
 The following is an example of a One-Step with Borrow strategy:
 
-| Vault Type | Input Token | Collateral Pool | Borrow Token | Liquidity Pool | Output Token |
+| **Vault Type** | **Input Token** | **Collateral Pool** | **Borrow Token** | **Liquidity Pool** | **Output Token** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Core Vault | DAI | Aave | USDC | dFORCE | dUSDC |
 
@@ -62,9 +62,8 @@ Two-Step with Borrow strategies deposit the underlying asset of a vault into a c
 
 The following is an example of a Two-Step with Borrow strategy:
 
-| Vault Type | Input Token | Collateral Pool | Borrow Token | Liquidity Pool | LP Token | Liquidity Pool | Output Token |
+| **Vault Type** | **Input Token** | **Collateral Pool** | **Borrow Token** | **Liquidity Pool** | **LP Token** | **Liquidity Pool** | **Output Token** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | Core Vault | WETH | Aave | USDC | Curve | 3CRV | Curve | gUSD |
 
 In the example above, the vault takes WETH as the underlying asset, deposits WETH into Aave WETH collateral pool, borrows USDC from Aave USDC borrow pool, deposits USDC into Curve USDC pool, gets 3CRV LP token, deposits 3CRV into Curve 3CRV pool, and then gets gUSD as the output token.
-
