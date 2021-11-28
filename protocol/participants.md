@@ -19,7 +19,7 @@ The OptyFi Protocol enables specialization of the strategist's various roles, th
 
 ### Integrators
 
-Integrators expand the "reach" of the OptyFi Protocol by adding integrations \([DeFi Adapters](optyfi-protocol/strategy-execution.md#defi-adapters)\) with other protocols. OptyFi’s architecture makes adding new pools and protocols simple: a new pool can be added withinin minutes, and a new protocol can be added within days. Each time a strategy is executed using a specific adapter, the Integrator who developed the adapter can receive a portion of Protocol fees generated from that strategy. This incentive mechanism enables the OptyFi protocol to grow at a scale that centralized systems cannot compete with, strengthening OptyFi’s network effects.
+Integrators expand the "reach" of the OptyFi Protocol by adding integrations \([DeFi Adapters](optyfi-protocol/strategy-execution.md#defi-adapters)\) with other protocols. OptyFi’s architecture makes adding new pools and protocols simple: a new pool can be added within minutes, and a new protocol can be added within days. Each time a strategy is executed using a specific adapter, the Integrator who developed the adapter can receive a portion of Protocol fees generated from that strategy. This incentive mechanism enables the OptyFi protocol to grow at a scale that centralized systems cannot compete with, strengthening OptyFi’s network effects.
 
 ### **Strategists**
 
