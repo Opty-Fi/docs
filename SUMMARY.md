@@ -2,7 +2,7 @@
 
 * [Disclaimer](README.md)
 
-## Introduction <a id="intro"></a>
+## Introduction <a href="#intro" id="intro"></a>
 
 * [Welcome To OptyFi](intro/welcome-to-optyfi.md)
 * [Why OptyFi?](intro/why-optyfi.md)
@@ -38,6 +38,7 @@
 * [OPTY Tokenomics](opty/opty-tokenomics.md)
 * [Liquidity Mining and Staking](opty/liquidity-mining-and-staking.md)
 * [Adaptive User Rewards Distribution](opty/adaptive-user-rewards-distribution.md)
+* [OPTY Rewards for Alpha](opty/opty-rewards-for-alpha.md)
 
 ## User Guides
 
@@ -51,7 +52,6 @@
   * [Claim OPTY](user-guides/vault-guides/claim-opty.md)
   * [Stake OPTY](user-guides/vault-guides/stake-opty.md)
 
----
+***
 
 * [FAQs](faqs.md)
-
