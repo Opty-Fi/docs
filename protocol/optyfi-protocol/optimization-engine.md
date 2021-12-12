@@ -2,7 +2,7 @@
 
 DeFi is known to be volatile and DeFi yield markets are significantly inefficient. This means that the yields \(and risk\) of liquidity pools change continuously, even for pools with the same underlying assets. The composability of DeFi protocols allows assets to be exchanged for "derivative assets" \(e.g. DAI for cDAI\), creating more potential volatility. 
 
-OptyFi is designed to allow continuous discovery of the most optimal yield strategies. Since this requires evaluation of multiple blocks of data from hundreds of liquidity pools, OptyFi's Optimization Engine is initially designed as an off-chain process that "recommends" the optimal strategy for each vault. [Strategy Execution](strategy-execution.md) smart contracts are responsible for executing this strategy, ensuring it includes only approved pools and enforcing risk constraints of the vault.
+OptyFi is designed to allow continuous discovery of the most optimal yield strategies. Since this requires evaluation of multiple blocks of data from hundreds of liquidity pools, OptyFi's Optimization Engine is initially designed as an off-chain process that "recommends" the optimal strategy for each vault, with the intent to eventually decentralize said Optimization Engine. [Strategy Execution](strategy-execution.md) smart contracts are responsible for executing this strategy, ensuring it includes only approved pools and enforcing risk constraints of the vault.
 
 ![How the OptyFi optimization engine works.](../../.gitbook/assets/optimization-engine%20%281%29.svg)
 
