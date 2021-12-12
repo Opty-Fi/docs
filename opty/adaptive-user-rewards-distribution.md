@@ -2,7 +2,7 @@
 
 ### **Asset Growth vs. OPTY Price**
 
-Liquidity mining will distribute OPTY to incentivize users to retain assets in OptyFi vaults. Increased assets should increase the Protocol's value by expanding revenue base and realizing economic efficiencies of scale. However, excessive OPTY distribution can have a depressing effect on OPTY price, reducing the Protocol's market cap directly and also weakening the Protocol's ability to incentivize users and contributors. Thus, a balance needs to be struck between stimulating Protocol growth and supporting OPTY price.
+Liquidity mining will distribute OPTY to incentivize users to retain assets in OptyFi vaults. Increased assets should increase the Protocol's value by expanding the revenue base and realizing economic efficiencies of scale. However, excessive OPTY distribution can have a depressing effect on OPTY price, reducing the Protocol's market cap directly and also weakening the Protocol's ability to incentivize users and contributors. Thus, a balance needs to be struck between stimulating Protocol growth and supporting OPTY price.
 
 ### **Optimization Parameters**
 
@@ -12,7 +12,7 @@ Instead of attempting to predict the optimal distribution rate, the Protocol wil
 
 * **Reward Rate**: The rate at which User Reward tokens are issued globally across all vaults and staking pools.
 
-| Reward Rate  | OPTY Per Day  | Depletion Time |
+| **Reward Rate**  | **OPTY Per Day**  | **Depletion Time** |
 | :--- | :--- | :--- |
 | 0x | 0; Distribution Paused | Infinity |
 | 1x | 50MM / 365\*5 = 27,397 | 5 Years |
@@ -25,7 +25,7 @@ Instead of attempting to predict the optimal distribution rate, the Protocol wil
 
 ### Community Analysis
 
-The precise relationships between growth, value and price are not easy to determine and at the outset we will not have data to estimate these relationships. It is hoped that the community will undertake data driven analysis to inform Governance in deciding the values for above parameters. 
+The precise relationships between growth, value and price are not easy to determine during the early days of the Protocol. As more data becomes available, community driven data analyses will inform Governance on deciding the optimal values for above parameters. 
 
 For example, periodic \(e.g. weekly\) analysis could include the following data for the period:
 
