@@ -12,7 +12,7 @@ Discuss product development, feature requests, OPTY tokenomics, and other topics
 
 ### [Twitter](https://twitter.com/optyfi)
 
-Hear first about announcements and updates by following us on Twitter.
+Be the first to hear about announcements and updates by following us on Twitter.
 
 ### [Medium](https://medium.com/optyfi)
 
