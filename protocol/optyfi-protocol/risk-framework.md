@@ -12,7 +12,7 @@ Currently the OptyFi Protocol implements three pool ratings:
 
 The system is flexible to accommodate an arbitrary number of pool ratings without modification to smart contract code. 
 
-Each liquidity pool integrated with the OptyFi Protocol is assigned a pool rating. This rating is currently established through governance voting. However, in the future, governance voting may result in the use of external services \(such as [defiscore.io](www.defiscore.io)\) or community [risk analysts](../participants.md#risk-analysts) to determine the risk of a pool.  
+Each liquidity pool integrated with the OptyFi Protocol is assigned a pool rating. This rating is currently established through governance voting. However, in the future, governance voting may decide for the use of external services \(such as [defiscore.io](www.defiscore.io)\) or community [risk analysts](../participants.md#risk-analysts). The latter would function as a determinant for the risk attached to a pool.  
 
 Currently, all pools for a given protocol are assigned the same rating, as follows: 
 
