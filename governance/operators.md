@@ -4,7 +4,7 @@
 
 For practical purposes, Governance shall delegate the implementation of Governance decisions and daily operational duties to Operators \(who may be individuals, corporate entities or decentralized organizations\).
 
-There will be several Operators who may further sub-delegate duties but will remain responsible to Governance for these sub-delegated duties. They include the following:
+There will be several Operators who may further sub-delegate duties while retaining responsibility over these. An overview of operations and duties is given here.
 
 ### Operator
 
@@ -41,5 +41,4 @@ The Risk Operator will be responsible for the following duties:
 
 ## **Selection and Replacement**
 
-The Operators will be selected by Governance for a one year term through a normal proposal. During the term of the Operators, Governance may remove and replace any or all of them through a critical proposal.
-
+The Operators will be selected by Governance for a one year term through a [normal proposal](voting.md#issues-by-proposal-category). During the term of the Operators, Governance may remove and replace any or all of them through a critical proposal.

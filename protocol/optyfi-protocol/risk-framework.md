@@ -12,11 +12,11 @@ Currently the OptyFi Protocol implements three pool ratings:
 
 The system is flexible to accommodate an arbitrary number of pool ratings without modification to smart contract code. 
 
-Each liquidity pool integrated with the OptyFi Protocol is assigned a pool rating. This rating is currently established by governance vote. However in the future, governance may vote to use an external service \(such as [defiscore.io](www.defiscore.io)\), or subscribe to pool ratings from community [risk analysts](../participants.md#risk-analysts).  
+Each liquidity pool integrated with the OptyFi Protocol is assigned a pool rating. This rating is currently established through governance voting. However, in the future, governance voting may decide for the use of external services \(such as [defiscore.io](www.defiscore.io)\) or community [risk analysts](../participants.md#risk-analysts). The latter would function as a determinant for the risk attached to a pool.  
 
 Currently, all pools for a given protocol are assigned the same rating, as follows: 
 
-| Protocol | Pool Rating |
+| **Protocol** | **Pool Rating** |
 | :--- | :--- |
 | Aave | T1 |
 | Compound | T1 |
@@ -29,9 +29,9 @@ Currently, all pools for a given protocol are assigned the same rating, as follo
 
 ## Risk Profiles
 
-Each strategy is assigned a risk profile based on the ratings of pools involved in the strategy along with the complexity of the strategy. Currently, the following risk profiles are defined:
+Each strategy is assigned a risk profile based on the ratings of the pools involved in the strategy along with the complexity of the strategy. Currently, the following risk profiles are defined:
 
-| Risk Profile | Description | Pool Ratings | Strategy Complexity |
+| **Risk Profile** | **Description** | **Pool Ratings** | **Strategy Complexity** |
 | :--- | :--- | :--- | :--- |
 | RP0 | Default | N/A | Hold In Vault |
 | RP1 | Basic | T1 | Multi-Step, No Borrow |
@@ -56,7 +56,7 @@ The limits work as follows:
 
 To better understand the application of these investment limits, take a look at the examples below.
 
-| Protocol | Protocol Investment Limit Mode | Protocol Max Percent | Pool | Pool Max Percent | Pool Max Amount |
+| **Protocol** | **Protocol Investment Limit Mode** | **Protocol Max Percent** | **Pool** | **Pool Max Percent** | **Pool Max Amount** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | Compound | Percent | 500% | cDAI | 100% | N/A |
 | Compound | Percent | 500% | cBTC | Null \(defaults to 500%\) | N/A |

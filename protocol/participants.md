@@ -19,7 +19,7 @@ The OptyFi Protocol enables specialization of the strategist's various roles, th
 
 ### Integrators
 
-Integrators expand the "reach" of the OptyFi Protocol by adding integrations \([DeFi Adapters](optyfi-protocol/strategy-execution.md#defi-adapters)\) with other protocols. OptyFi’s architecture makes adding new pools and protocols simple: a new pool can be added in minutes, and a new protocol can be added in days. Each time a strategy is executed using a specific adapter, the Integrator who developed the adapter can receive a portion of Protocol fees generated from that strategy. This incentive mechanism enables the OptyFi protocol to grow at a scale that centralized systems cannot compete with, strengthening OptyFi’s network effects.
+Integrators expand the "reach" of the OptyFi Protocol by adding integrations \([DeFi Adapters](optyfi-protocol/strategy-execution.md#defi-adapters)\) with other protocols. OptyFi’s architecture makes adding new pools and protocols simple: a new pool can be added within minutes, and a new protocol can be added within days. Each time a strategy is executed using a specific adapter, the Integrator who developed the adapter can receive a portion of Protocol fees generated from that strategy. This incentive mechanism enables the OptyFi protocol to grow at a scale that centralized systems cannot compete with, strengthening OptyFi’s network effects.
 
 ### **Strategists**
 
@@ -27,7 +27,7 @@ OptyFi’s architecture lets strategists focus on strategy optimization rather t
 
 ### **Risk Analysts**
 
-The OptyFi architecture decouples strategy definition from strategy risk. Risk Analysts can develop risk assessment systems that assign [pool ratings](optyfi-protocol/risk-framework.md#pool-ratings) to liquidity pools or even directly assign [risk profiles](optyfi-protocol/risk-framework.md#risk-profiles) to any given strategy. Vaults may choose to subscribe risk ratings from a specific Risk Analyst in order to filter the strategies that a Vault may execute and to set the vault’s “portfolio risk composition”. In return, Risk Analysts would be paid a portion of vault fees.
+The OptyFi architecture decouples strategy definition from strategy risk. Risk Analysts can develop risk assessment systems that assign [pool ratings](optyfi-protocol/risk-framework.md#pool-ratings) to liquidity pools or even directly assign [risk profiles](optyfi-protocol/risk-framework.md#risk-profiles) to any given strategy. Vaults may choose to subscribe risk ratings from a specific Risk Analyst in order to filter the strategies that a vault may execute and to set the vault’s “portfolio risk composition”. In return, Risk Analysts would be paid a portion of vault fees.
 
 ### **Data Providers**
 
@@ -49,4 +49,3 @@ Current DeFi users seeking to access optimal yield need to:
 OptyFi vaults automatically switch to optimal strategies based on changing conditions. OptyFi’s architecture connects fragmented DeFi yield markets so that users do not have to learn various protocols and dApps or monitor changing rates and fees. 
 
 OptyFi can also provide vaults-as-a-service to project teams, DAOs and on-chain Asset Managers. These non-individual users can configure and deploy vaults with customized strategies suited to the needs/objectives of their users without the need for custom code development. Investors benefit from the availability of a larger selection of vault investment options specialized to their individual requirements.
-

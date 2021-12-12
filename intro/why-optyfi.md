@@ -4,7 +4,7 @@
 
 Yield was the "killer application" that brought DeFi to the world's attention. But we are still at a very early stage. 
 
-The current status of DeFi yield consists of fragmented yield aggregation apps with hand-picked and inflexible yield strategies. Until DeFi is able to offer a user experience and technical sophistication comparable to TradFi, we will not achieve mainstream \(retail or institutional\) adoption.   
+The current status of DeFi yield consists of fragmented yield aggregation apps with hand-picked and inflexible yield strategies. Until DeFi is able to offer a user experience and technical sophistication comparable to TradFi, mainstream adoption \(retail or institutional\)  will not be achieved.   
 
 OptyFi aims to deliver the user experience and technical sophistication of traditional asset management while preserving the ground-breaking advantages of decentralization. 
 

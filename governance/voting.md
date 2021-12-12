@@ -6,12 +6,12 @@ Governance will participate in decision making through a proposal voting process
 
 1. **Discussions**: The community may carry on discussions in the OptyFi Forums, including in the “Possible Proposals” section.
 2. **"OIP" Proposal Creation**: If a particular discussion attracts significant interest, the Operator may create a formal OptyFi Improvement Proposal \(OIP\).
-3. **OPTY Staking**: In order to participate in voting, OPTY holders will need to stake their OPTY. The length of time for which OPTY tokens are locked in the staking pools, will determine the [voting power](voting.md#voting-power) of the OPTY. 
+3. **OPTY Staking**: In order to participate in voting, OPTY holders will need to stake their OPTY. The length of time for which OPTY tokens are locked in the staking pools will determine the [voting power](voting.md#voting-power) of the OPTY. 
 4. **Voting**: Each OIP will be set to a Governance vote. Voting rules will be determined by the [proposal category](voting.md#issues-by-proposal-category).
 
 ## Voting Power 
 
-| Staking Pool Lock-In Period | Voting Power |
+| **Staking Pool Lock-In Period** | **Voting Power** |
 | :--- | :--- |
 | None | 1 OPTY - 1 Vote |
 | 3 Months | 1 OPTY - 2 Votes |
@@ -20,7 +20,7 @@ Governance will participate in decision making through a proposal voting process
 
 ## Voting Rules
 
-| Proposal Category | Approval Threshold | Quorum |
+| **Proposal Category** | **Approval Threshold** | **Quorum** |
 | :--- | :--- | :--- |
 | Normal | 50% | 5% |
 | Critical | 75% | 5% |
@@ -30,8 +30,8 @@ Governance will participate in decision making through a proposal voting process
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Proposal Category</th>
-      <th style="text-align:left">Issues</th>
+      <th style="text-align:left"><b>Proposal Category</b></th>
+      <th style="text-align:left"><b>Issues</b></th>
     </tr>
   </thead>
   <tbody>
