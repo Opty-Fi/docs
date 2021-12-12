@@ -22,7 +22,7 @@ Depositing an underlying token into a pool as collateral and then borrowing an u
 
 ## Strategy Sequence
 
-A strategy sequence is composed of multiple strategy steps. 
+A strategy sequence comprises multiple strategy steps. 
 
 If a token is deposited into a pool and the LP token you receive in return can be deposited into a second pool, then you can "string together" two strategy steps to form a two-step strategy sequence.
 
@@ -36,4 +36,4 @@ In today's DeFi reality, strategy sequences are usually limited to two deposit s
 
 The entirety of possible strategy sequences form a directed \(possibly cyclic\) graph which we refer to as the Strategy Graph. The nodes of the Strategy Graph represent liquidity pools and the inbound edges represent deposits into those liquidity pools.
 
-OptyFi's Strategy Graph is determined by liquidity pools integrated within the Protocol. Integrating a new liquidity pool to the Protocol creates therefore updates the Strategy Graph, potentially generating multiple new strategies.  
+OptyFi's Strategy Graph is determined by liquidity pools integrated within the Protocol. Integration a new liquidity pool to the Protocol updates the Strategy graph by adding a new node to the map of nodes. This is turn potentially generates multiple new strategies.
