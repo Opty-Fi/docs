@@ -1,8 +1,8 @@
 # Vaults
 
-Vaults are OptyFi smart contracts into which users deposit assets in order to get these assets deployed into strategies. Vaults enable users to share gas costs and thereby increase user profitability while also enabling more frequent strategy switching. 
+Vaults are OptyFi smart contracts into which users deposit assets. Vaults automatically manage assets based on the optimal [strategy](strategy-composition.md) available, and enable users to share gas costs and thereby increase user profitability while also enabling more frequent strategy switching. 
 
-Each vault has a [vault type](vaults.md#vault-types) determined by its [underlying token](tokens-and-pools.md#tokens) \(i.e. the token users would deposit into the vault\). Each vault is also associated with a specific [risk profile](risk-framework.md#risk-profiles) which determines which strategies the vault can and cannot deploy assets into. 
+Each vault has a [vault type](vaults.md#vault-types) determined by its [underlying token](tokens-and-pools.md#tokens) \(i.e. the token users would deposit into the vault\). Each vault is also associated with a specific [risk profile](risk-framework.md#risk-profiles), which determines which strategies the vault is permited to  deploy assets into. 
 
 ## Vault Types
 
@@ -20,11 +20,11 @@ LP Vaults can accept Single-Asset LP Tokens like cDAI or aUSDC as well as Multi-
 
 There will be a separate vault for each underlying asset and risk profile combination. 
 
-Upon launch, the following vaults will be deployed: 
+During the Alpha phase, the following vaults will be deployed: 
 
 | **[Underlying Asset](tokens-and-pools.md#tokens)** | **[Risk Profile](risk-framework.md#risk-profiles)** |
 | :--- | :--- |
-| DAI | RP1, RP2 |
+| WETH | RP1, RP2 |
 | USDC | RP1, RP2 |
 | USDT | RP1, RP2 |
 | WETH | RP1, RP2 |
@@ -32,5 +32,4 @@ Upon launch, the following vaults will be deployed:
 | BAL-OPTY-USDC | RP0 |
 | BAL-ODEFI-USDC | RP0 |
 
-For example, the DAI-RP1 vault will accept DAI as the input token and then deploy DAI into various strategies that meet the RP1 risk profile. 
-
+For example, the WETH-RP1 vault will accept WETH as the input token and then deploy WETH into various strategies that meet the RP1 risk profile. Progressively, in the Beta and Full launches, more vaults will be deployed incrementally by the OptyFi protocol.
