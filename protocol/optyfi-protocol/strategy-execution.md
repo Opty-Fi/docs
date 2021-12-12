@@ -25,7 +25,7 @@ Prior to returning the strategy execution code to a vault, the [Strategy Manager
 
 If these checks fail, the strategy will not be executed. 
 
-The Risk Manager enables OptyFi to enforce risk constraints in real time. For example, consider the case where pool ratings are being provided by a credit risk oracle service and a given pool is downgraded from T1 to T2. In such a case, the Risk Manager will automatically be updated to "block" any strategies that do not allow T2 pools.  
+The Risk Manager enables OptyFi to enforce risk constraints in real time. Consider the case where pool ratings are being provided by a credit risk oracle service and a given pool is downgraded from T1 to T2. In such a case, the Risk Manager will automatically be updated to "block" any strategies that do not allow T2 pools.  
 
 ## DeFi Adapters
 
