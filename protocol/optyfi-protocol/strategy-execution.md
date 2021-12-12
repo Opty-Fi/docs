@@ -31,4 +31,4 @@ The Risk Manager enables OptyFi to enforce risk constraints in real time. Consid
 
 While the Strategy Manager knows how to generate the code for a multi-step strategy, it does not know how to perform deposits, withdrawals or otherwise interact with specific liquidity pools. Protocol-specific DeFi Adapters contain code to interact with liquidity pools. In order to add the liquidity pools of a new protocol to the OptyFi system, a new DeFi adapter must be coded and deployed. 
 
-DeFi Adapters are easy to code and deploy. It is expected that a developer with knowledge of a liquidity generating protocol should be able to code the DeFi Adapter for that protocol within a week.
+DeFi Adapters are relatively easy to code and deploy. It is expected that a developer with knowledge of a liquidity generating protocol should be able to code the DeFi Adapter for that protocol within a week.
