@@ -12,5 +12,5 @@ The yield optimization model proceeds as follows:
 
 ![OptyFi vault assets will be routed across multiple pools and protocols in real time.](../.gitbook/assets/how-it-works.svg)
 
-By combining these elements together into a working application, OptyFi ensures capital to never stay idle.
+By combining these elements into a working application, OptyFi ensures capital never remains idle.
 
