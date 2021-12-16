@@ -1,8 +1,8 @@
-# 目录
+# Table of contents
 
 * [免责声明](README.md)
 
-## 简介 <a id="intro"></a>
+## 简介 <a href="#intro" id="intro"></a>
 
 * [什么是 OptyFi](intro/welcome-to-optyfi.md)
 * [为什么要使用 OptyFi?](intro/why-optyfi.md)
@@ -12,46 +12,45 @@
 ## 协议
 
 * [OptyFi 协议](protocol/optyfi-protocol/README.md)
-  * [代币和流动池](protocol/optyfi-protocol/tokens-and-pools.md)
-  * [机枪池](protocol/optyfi-protocol/vaults.md)
-  * [策略构成](protocol/optyfi-protocol/strategy-composition.md)
-  * [策略类别](protocol/optyfi-protocol/strategy-types/README.md)
-    * [投资策略](protocol/optyfi-protocol/strategy-types/investment-strategies.md)
-    * [收益策略](protocol/optyfi-protocol/strategy-types/reward-strategies.md)
-  * [风控架构](protocol/optyfi-protocol/risk-framework.md)
-  * [策略执行](protocol/optyfi-protocol/strategy-execution.md)
-  * [优化机制](protocol/optyfi-protocol/optimization-engine.md)
-* [持分者](protocol/participants.md)
-* [延伸功用](protocol/use-cases.md)
+  * [代币和流动池](xie-yi/optyfi-protocol/dai-bi-he-liu-dong-chi.md)
+  * [机枪池](xie-yi/optyfi-protocol/ji-qiang-chi.md)
+  * [策略构成](xie-yi/optyfi-protocol/ce-lve-gou-cheng.md)
+  * [策略类别](xie-yi/optyfi-protocol/ce-lve-lei-bie/README.md)
+    * [投资策略](xie-yi/optyfi-protocol/ce-lve-lei-bie/tou-zi-ce-lve.md)
+    * [收益策略](xie-yi/optyfi-protocol/ce-lve-lei-bie/shou-yi-ce-lve.md)
+  * [风控架构](xie-yi/optyfi-protocol/feng-kong-jia-gou.md)
+  * [策略执行](xie-yi/optyfi-protocol/ce-lve-zhi-hang.md)
+  * [优化机制](xie-yi/optyfi-protocol/you-hua-ji-zhi.md)
+* [持分者](xie-yi/chi-fen-zhe.md)
+* [延伸功用](xie-yi/yan-shen-gong-yong.md)
 
 ## 治理
 
-* [治理总览](governance/governance-overview.md)
-* [OptyFi 去中心化治理组织](governance/optyfi-dao.md)
-* [投票](governance/voting.md)
-* [决策执行](governance/operators.md)
-* [库房](governance/treasury.md)
+* [治理总览](zhi-li/zhi-li-zong-lan.md)
+* [OptyFi 去中心化治理组织](zhi-li/optyfi-qu-zhong-xin-hua-zhi-li-zu-zhi.md)
+* [投票](zhi-li/tou-piao.md)
+* [决策执行](zhi-li/jue-ce-zhi-hang.md)
+* [库房](zhi-li/ku-fang.md)
 
 ## OPTY
 
-* [OPTY 治理代币](opty/opty-governance-token.md)
-* [OPTY 代币经济模型](opty/opty-tokenomics.md)
-* [流动性挖矿和质押](opty/liquidity-mining-and-staking.md)
-* [浮动挖矿产出机制](opty/adaptive-user-rewards-distribution.md)
+* [OPTY 治理代币](opty/opty-zhi-li-dai-bi.md)
+* [OPTY 代币经济模型](opty/opty-dai-bi-jing-ji-mo-xing.md)
+* [流动性挖矿和质押](opty/liu-dong-xing-wa-kuang-he-zhi-ya.md)
+* [浮动挖矿产出机制](opty/fu-dong-wa-kuang-chan-chu-ji-zhi.md)
 
 ## 用户指南
 
-* [新手入门](user-guides/getting-started/README.md)
-  * [连接钱包](user-guides/getting-started/connect-your-wallet.md)
-  * [浏览OptyFi机枪池](user-guides/getting-started/browse-optyfi-vaults.md)
-  * [投资机枪池](user-guides/getting-started/invest-in-vaults.md)
-* [机枪池指南](user-guides/vault-guides/README.md)
-  * [存款](user-guides/vault-guides/deposit-assets.md)
-  * [提款](user-guides/vault-guides/withdraw-assets.md)
-  * [认领 OPTY](user-guides/vault-guides/claim-opty.md)
-  * [质押 OPTY](user-guides/vault-guides/stake-opty.md)
+* [新手入门](yong-hu-zhi-nan/xin-shou-ru-men/README.md)
+  * [连接钱包](yong-hu-zhi-nan/xin-shou-ru-men/lian-jie-qian-bao.md)
+  * [浏览OptyFi机枪池](yong-hu-zhi-nan/xin-shou-ru-men/liu-lan-optyfi-ji-qiang-chi.md)
+  * [投资机枪池](yong-hu-zhi-nan/xin-shou-ru-men/tou-zi-ji-qiang-chi.md)
+* [机枪池指南](yong-hu-zhi-nan/ji-qiang-chi-zhi-nan/README.md)
+  * [存款](yong-hu-zhi-nan/ji-qiang-chi-zhi-nan/cun-kuan.md)
+  * [提款](yong-hu-zhi-nan/ji-qiang-chi-zhi-nan/ti-kuan.md)
+  * [认领 OPTY](yong-hu-zhi-nan/ji-qiang-chi-zhi-nan/ren-ling-opty.md)
+  * [质押 OPTY](yong-hu-zhi-nan/ji-qiang-chi-zhi-nan/zhi-ya-opty.md)
 
----
+***
 
 * [FAQs](faqs.md)
-
