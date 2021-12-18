@@ -1,0 +1,2 @@
+# Ejecución de estrategia
+

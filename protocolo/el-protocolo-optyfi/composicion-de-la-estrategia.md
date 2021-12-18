@@ -1,0 +1,2 @@
+# Composición de la estrategia
+

@@ -1,57 +1,56 @@
-# Tabla de contenido
+# Table of contents
 
 * [Descargo de responsabilidad](README.md)
 
-## Introducción <a id="intro"></a>
+## Introducción <a href="#intro" id="intro"></a>
 
-* [Bienvenido a OptyFi](intro/welcome-to-optyfi.md)
-* [¿Por qué OptyFi?](intro/why-optyfi.md)
-* [Cómo funciona OptyFi](intro/how-optyfi-works.md)
-* [Únase a la comunidad](intro/join-the-community.md)
+* [Bienvenido a OptyFi](intro/bienvenido-a-optyfi.md)
+* [¿Por qué OptyFi?](intro/por-que-optyfi.md)
+* [Cómo funciona OptyFi](intro/como-funciona-optyfi.md)
+* [Únase a la comunidad](intro/unase-a-la-comunidad.md)
 
 ## Protocolo
 
-* [El protocolo OptyFi](protocol/optyfi-protocol/README.md)
-  * [Tokens y grupos](protocol/optyfi-protocol/tokens-and-pools.md)
-  * [Bóvedas](protocol/optyfi-protocol/vaults.md)
-  * [Composición de la estrategia](protocol/optyfi-protocol/strategy-composition.md)
-  * [Tipos de estrategia](protocol/optyfi-protocol/strategy-types/README.md)
-    * [Estrategias de inversión](protocol/optyfi-protocol/strategy-types/investment-strategies.md)
-    * [Estrategias de recompensa](protocol/optyfi-protocol/strategy-types/reward-strategies.md)
-  * [Marco de riesgo](protocol/optyfi-protocol/risk-framework.md)
-  * [Ejecución de estrategia](protocol/optyfi-protocol/strategy-execution.md)
-  * [Motor de optimización](protocol/optyfi-protocol/optimization-engine.md)
-* [Participantes](protocol/participants.md)
-* [Casos de uso](protocol/use-cases.md)
+* [El protocolo OptyFi](protocolo/el-protocolo-optyfi/README.md)
+  * [Tokens y grupos](protocolo/el-protocolo-optyfi/tokens-y-grupos.md)
+  * [Bóvedas](protocolo/el-protocolo-optyfi/bovedas.md)
+  * [Composición de la estrategia](protocolo/el-protocolo-optyfi/composicion-de-la-estrategia.md)
+  * [Tipos de estrategia](protocolo/el-protocolo-optyfi/tipos-de-estrategia/README.md)
+    * [Estrategias de inversión](protocolo/el-protocolo-optyfi/tipos-de-estrategia/estrategias-de-inversion.md)
+    * [Estrategias de recompensa](protocolo/el-protocolo-optyfi/tipos-de-estrategia/estrategias-de-recompensa.md)
+  * [Marco de riesgo](protocolo/el-protocolo-optyfi/marco-de-riesgo.md)
+  * [Ejecución de estrategia](protocolo/el-protocolo-optyfi/ejecucion-de-estrategia.md)
+  * [Motor de optimización](protocolo/el-protocolo-optyfi/motor-de-optimizacion.md)
+* [Participantes](protocolo/participantes.md)
+* [Casos de uso](protocolo/casos-de-uso.md)
 
 ## Gobernanza
 
-* [Descripción general de la gobernanza](governance/governance-overview.md)
-* [OptyFi DAO](governance/optyfi-dao.md)
-* [Votación](governance/voting.md)
-* [Operadores](governance/operators.md)
-* [Tesorería](governance/treasury.md)
+* [Descripción general de la gobernanza](gobernanza/descripcion-general-de-la-gobernanza.md)
+* [OptyFi DAO](gobernanza/optyfi-dao.md)
+* [Votación](gobernanza/votacion.md)
+* [Operadores](gobernanza/operadores.md)
+* [Tesorería](gobernanza/tesoreria.md)
 
 ## OPTY
 
 * [OPTY Governance Token](opty/opty-governance-token.md)
 * [OPTY Tokenomics](opty/opty-tokenomics.md)
 * [Liquidity Mining and Staking](opty/liquidity-mining-and-staking.md)
-* [Distribución de recompensas de usuario adaptable](opty/adaptive-user-rewards-distribution.md)
+* [Distribución de recompensas de usuario adaptable](opty/distribucion-de-recompensas-de-usuario-adaptable.md)
 
 ## Guías de usuario
 
-* [Comenzando](user-guides/getting-started/README.md)
-  * [Connect Your Wallet](user-guides/getting-started/connect-your-wallet.md)
-  * [Examinar las bóvedas de OptyFi](user-guides/getting-started/browse-optyfi-vaults.md)
-  * [Invest In Vaults](user-guides/getting-started/invest-in-vaults.md)
-* [Vault Guides](user-guides/vault-guides/README.md)
-  * [Activos de depósito](user-guides/vault-guides/deposit-assets.md)
-  * [Retirar activos](user-guides/vault-guides/withdraw-assets.md)
-  * [Claim OPTY](user-guides/vault-guides/claim-opty.md)
-  * [Stake OPTY](user-guides/vault-guides/stake-opty.md)
+* [Comenzando](guias-de-usuario/comenzando/README.md)
+  * [Connect Your Wallet](guias-de-usuario/comenzando/connect-your-wallet.md)
+  * [Examinar las bóvedas de OptyFi](guias-de-usuario/comenzando/examinar-las-bovedas-de-optyfi.md)
+  * [Invest In Vaults](guias-de-usuario/comenzando/invest-in-vaults.md)
+* [Vault Guides](guias-de-usuario/vault-guides/README.md)
+  * [Activos de depósito](guias-de-usuario/vault-guides/activos-de-deposito.md)
+  * [Retirar activos](guias-de-usuario/vault-guides/retirar-activos.md)
+  * [Claim OPTY](guias-de-usuario/vault-guides/claim-opty.md)
+  * [Stake OPTY](guias-de-usuario/vault-guides/stake-opty.md)
 
----
+***
 
 * [Preguntas frecuentes](faqs.md)
-

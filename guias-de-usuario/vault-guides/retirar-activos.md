@@ -1,0 +1,2 @@
+# Retirar activos
+
