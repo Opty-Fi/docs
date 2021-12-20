@@ -12,7 +12,7 @@
 ## 协议
 
 * [OptyFi 协议](protocol/optyfi-protocol/README.md)
-  * [代币和流动池](xie-yi/optyfi-protocol/dai-bi-he-liu-dong-chi.md)
+  * [令牌和流动池](xie-yi/optyfi-protocol/dai-bi-he-liu-dong-chi.md)
   * [机枪池](xie-yi/optyfi-protocol/ji-qiang-chi.md)
   * [策略构成](xie-yi/optyfi-protocol/ce-lve-gou-cheng.md)
   * [策略类别](xie-yi/optyfi-protocol/ce-lve-lei-bie/README.md)
