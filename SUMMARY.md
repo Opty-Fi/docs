@@ -43,12 +43,12 @@
 
 * [新手入门](yong-hu-zhi-nan/xin-shou-ru-men/README.md)
   * [连接钱包](yong-hu-zhi-nan/xin-shou-ru-men/lian-jie-qian-bao.md)
-  * [浏览OptyFi机枪池](yong-hu-zhi-nan/xin-shou-ru-men/liu-lan-optyfi-ji-qiang-chi.md)
+  * [浏览OptyFi保险库](yong-hu-zhi-nan/xin-shou-ru-men/liu-lan-optyfi-ji-qiang-chi.md)
   * [投资机枪池](yong-hu-zhi-nan/xin-shou-ru-men/tou-zi-ji-qiang-chi.md)
 * [机枪池指南](yong-hu-zhi-nan/ji-qiang-chi-zhi-nan/README.md)
   * [存款](yong-hu-zhi-nan/ji-qiang-chi-zhi-nan/cun-kuan.md)
   * [提款](yong-hu-zhi-nan/ji-qiang-chi-zhi-nan/ti-kuan.md)
-  * [认领 OPTY](yong-hu-zhi-nan/ji-qiang-chi-zhi-nan/ren-ling-opty.md)
+  * [领取 OPTY](yong-hu-zhi-nan/ji-qiang-chi-zhi-nan/ren-ling-opty.md)
   * [质押 OPTY](yong-hu-zhi-nan/ji-qiang-chi-zhi-nan/zhi-ya-opty.md)
 
 ***
