@@ -22,7 +22,7 @@
   * [策略执行](xie-yi/optyfi-protocol/ce-lve-zhi-hang.md)
   * [优化机制](xie-yi/optyfi-protocol/you-hua-ji-zhi.md)
 * [参与者](xie-yi/chi-fen-zhe.md)
-* [延伸功用](xie-yi/yan-shen-gong-yong.md)
+* [应用](xie-yi/yan-shen-gong-yong.md)
 
 ## 治理
 
