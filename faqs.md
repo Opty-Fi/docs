@@ -27,7 +27,7 @@ Yes!
 
 ## Which chains will OptyFi be deployed on?
 
-The OptyFi Protocol will be deployed on multiple blockchains including Ethereum, Polygon, Binance Smart Chain, Terra, etc.
+The OptyFi Protocol will be deployed on multiple blockchains including Ethereum, Polygon, Binance Smart Chain, etc.
 
 ## Will OptyFi be cross-chain?
 
@@ -43,9 +43,12 @@ OPTY is the native governance token of the OptyFi Protocol and DAO.
 * OPTY holders can participate in OptyFi DAO governance.
 * OPTY holders can stake their OPTY to earn more OPTY.
 
-## What is the OPTY contract address?
+## What are the contract addresses of the OptyFi Vaults?
 
-To be advised.
+• Crypto Punks Vault (Ethereum) -[https://etherscan.io/address/0xba9b885515829e618D8b5231462c8BD43986c71E](https://etherscan.io/address/0xba9b885515829e618D8b5231462c8BD43986c71E)\
+• WETH Vault (Ethereum) – [https://etherscan.io/address/0xFf2fbd9Fbc6d03BAA77cf97A3D5671bEA183b9a8](https://etherscan.io/address/0xFf2fbd9Fbc6d03BAA77cf97A3D5671bEA183b9a8)\
+• USDC Vault (Ethereum) – [https://etherscan.io/address/0x6d8BfdB4c4975bB086fC9027e48D5775f609fF88](https://etherscan.io/address/0x6d8BfdB4c4975bB086fC9027e48D5775f609fF88)\
+• USDC Vault (Polygon) – [https://polygonscan.com/address/0x7FeA9Dc468855B999389E396BdB1e3EbF6d19E83](https://polygonscan.com/address/0x7FeA9Dc468855B999389E396BdB1e3EbF6d19E83)
 
 ## Where can I buy OPTY?
 
@@ -65,5 +68,4 @@ You can get involved by joining our growing community to learn and contribute to
 
 ## How can I contact OptyFi?
 
- You can reach out to the OptyFi core team via our [discord](https://discord.com/invite/kVxKHUEpy8) server.
-
+&#x20;You can reach out to the OptyFi core team via our [discord](https://discord.com/invite/kVxKHUEpy8) server.
