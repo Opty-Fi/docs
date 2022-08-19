@@ -35,9 +35,6 @@
 ## OPTY
 
 * [OPTY Governance Token](opty/opty-governance-token.md)
-* [OPTY Tokenomics](opty/opty-tokenomics.md)
-* [Liquidity Mining and Staking](opty/liquidity-mining-and-staking.md)
-* [Adaptive User Rewards Distribution](opty/adaptive-user-rewards-distribution.md)
 * [OPTY Rewards for Alpha](opty/opty-rewards-for-alpha.md)
 
 ## User Guides
